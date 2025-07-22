@@ -6,7 +6,7 @@ using namespace std;
 
 int sum(int a, int b){
     int sum=0;
-    for(int i=1;i<=1000;i++){
+    for(int i=1;i<1000;i++){
         if(i%a==0 || i%b==0){
             sum=sum+i; 
         }
