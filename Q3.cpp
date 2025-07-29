@@ -37,7 +37,7 @@ long long largestPrimeFactor(long long n) {
 
 int main() {
     long long n = 600851475143;
-    cout << "Largest prime factor: " << largestPrimeFactor(n) << endl;
+    cout << "Largest prime factor: "<< largestPrimeFactor(n) << endl;
     return 0;
 }
 
