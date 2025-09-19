@@ -15,14 +15,14 @@ vector<long long> primeFactors(long long n) {
         if (n % i == 0) {
             factors.push_back(i);
             while (n % i == 0) {
-                n /= i;
+                n /= i; //n=n/i || Jab hum i se divide karte hain, to hum i ke saare multiples hata dete hain. Taaki ek hi factor ko baar-baar alag se na store karna pade
             }
         }
     }
 
     if (n > 1) {
-        factors.push_back(n);
-    }
+        factors.push_back(n); // agar loop mea koi factor na mile to number khud ka he factor hoga.
+     }
 
     return factors;
 }
