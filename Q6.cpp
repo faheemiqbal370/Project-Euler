@@ -18,7 +18,6 @@ int sum(int n){
     return sqs;
 }
 
-
 int s2(int n){
     int sq2=0;
     for(int i=1;i<=n;i++){
