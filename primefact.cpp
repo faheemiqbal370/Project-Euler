@@ -8,7 +8,7 @@ void primeFactors(long long n) {
             cout << i << " ";
             while (n % i == 0)// Remove this while if you dont want repetation .
             n /= i; //n=n/i
-        } 
+        }
     }
     if (n > 1) cout << n;  // agar end me prime bacha
 }
