@@ -18,6 +18,7 @@ int fact=0;
 for(int it : pr) {
     sum += it;
 }
+
 cout << sum;
 }
 int main() {
