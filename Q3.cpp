@@ -24,6 +24,7 @@ vector<long long> primeFactors(long long n) {
         factors.push_back(n); // agar loop mea koi factor na mile to number khud ka he factor hoga.
      }
 
+
     return factors;
 }
 
