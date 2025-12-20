@@ -26,7 +26,6 @@ vector<long long> primeFactors(long long n) {
     return factors;
 }
 
-
 long long largestPrimeFactor(long long n) {
     vector<long long> factors = primeFactors(n);
     if (factors.empty()) {
