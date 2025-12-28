@@ -14,7 +14,6 @@ bool prime(int n){
     }
     return true;
 }
-
 int main(){
     int count=0;
     int n=1;
